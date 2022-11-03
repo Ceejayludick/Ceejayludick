@@ -1,75 +1,118 @@
+html {
+  background-color: bisque;
+}
+
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 110%;
-  background-color: #FCF7F8;
   display: flex;
-  flex-direction: column ;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  border: 0px; 
+  padding: 3%;
 }
 
-* {
-  box-sizing: border-box
+
+
+main {
+  border-style: groove;
+  width: 70%;
+  margin-left: 30%;
+  
+
 }
 
-img {
- border-radius: 50%;
- vertical-align: middle;
- width: 50px;
- height: 50px;
-}
 
-.main{
-  display: flex;
-  flex-direction: row;
-  overflow: unset;
- }
-
-
-// header styling // 
 
 header {
-  border-style: dotted;
+  display: block;
   text-align: center;
-  background-color: cornflowerblue;
-  margin: 20px;
-  padding: 40px;
+  margin: 0px;
+  padding: 20px;
+  border: 10px;
+  border-color: chartreuse;
+  background-color: chartreuse;
+
+}
+
+
+
+aside {
+  border: 1cm;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: darkgray;
+  width: 20%;
+  height: 200px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+}
+
+
+h1 {
+  font-size: 250%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+
+}
+
+h3 {
+  text-decoration: underline;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+// styling below is for the profile image //
+
+img {
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 0px;
+  border: 0px;
+}
+
+// this styling is for the footer //
+
+
+footer {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 1rem;
+  background-color: red;
+  display: flex;
   justify-content: center;
 }
 
-#heading{
- font-family: sans-serif;
- font-size: 110%;
- background-color: chartreuse;
- color: aqua;
-}
-
-
-h2 {
-  font-size: 40px;
-  background-color: gainsboro;
-
-  ol li ul li a {
-    border: 1px solid red
-  }
-
-}
-
-// footer styling //
-
-footer {
-  padding: 1rem;
-  background-color: yellowgreen;
-  jsutify-content: center;
-  text-align: center;
-}
-
-#sidebar {
-  width: 25%;
-  background-color: skyblue;
-
-}
-
-.container {
+.flex-container {
   display: flex;
-
-
+  flex-direction: row;
+  justify-content: center;
+  border: 70%;
+  padding: 2%;
+  width: 50rem;
+  margin: 5%;
+  background-color: darkgrey;
+  border-radius: 20px;
 }
+
+
+
+
+
+
