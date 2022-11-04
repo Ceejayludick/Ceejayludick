@@ -1,6 +1,9 @@
 html {
   background-color: aquamarine;
+  /* color chosen for background to be neutral */
 }
+
+/* styling for the body */
 
 body {
   display: flex;
@@ -13,7 +16,7 @@ body {
   background-color: bisque
 }
 
-// changing the font for the list items and paragraphs to sans serif //
+/* changing the font for the list items and paragraphs to sans serif */
 
 li {
   font-family: Arial, Helvetica, sans-serif;
@@ -23,24 +26,33 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* styling for main */
+
 main {
   border-style: groove;
-  width: 70%;
-  margin-left: 20%;
-
-
+  width: 90%;
+  margin: 0%;
+  padding: 5%;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+/*styling of the header to be more distinctive than body and footer*/
 
 header {
   display: block;
   text-align: center;
+  background-color: chartreuse;
+  width: 97.9%;
   margin: 0px;
-  padding: 20px;
+  padding: 5px;
   border: 10px;
   border-color: chartreuse;
-  background-color: chartreuse;
+  border-style: ridge;
+  /*ridge border used to make header stand out more*/
 
 }
+
+/* Styling for menu sidebar */
 
 aside {
   border: 5cm;
@@ -49,15 +61,15 @@ aside {
   flex-direction: column;
   text-align: left;
   background-color: darkgray;
-  width: 30%;
+  width: 20%;
   height: 200px;
   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  align-self: auto;
 }
 
-#sidebar {
-  float: inline-start;
-}
+
+/* styling different headings and their sizes */
 
 h1 {
   font-size: 250%;
@@ -80,7 +92,7 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-// styling below is for the profile image //
+/* styling below is for the profile image */
 
 img {
   border-radius: 50%;
@@ -99,7 +111,7 @@ img {
   border-radius: 50%;
 }
 
-// this styling is for the footer //
+/* this styling is for the footer */
 
 
 footer {
@@ -107,10 +119,11 @@ footer {
   text-align: center;
   margin: 10px;
   padding: 1rem;
-  background-color: red;
   display: flex;
   justify-content: center;
 }
+
+/*styling for flex properties of footer used to make footer more seperate and distinctive from main*/
 
 .flex-container {
   display: flex;
