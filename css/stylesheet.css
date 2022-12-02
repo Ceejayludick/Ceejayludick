@@ -13,7 +13,7 @@ body {
   margin: auto;
   border: 0px;
   padding: 3%;
-  background-color: bisque
+  background-color:aliceblue
 }
 
 /* changing the font for the list items and paragraphs to sans serif */
@@ -41,12 +41,12 @@ main {
 header {
   display: block;
   text-align: center;
-  background-color: chartreuse;
+  background-color: aliceblue;
   width: 97.9%;
   margin: 0px;
   padding: 5px;
   border: 10px;
-  border-color: chartreuse;
+  border-color:blueviolet
   border-style: ridge;
   /*ridge border used to make header stand out more*/
 
