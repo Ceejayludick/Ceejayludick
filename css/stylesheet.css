@@ -16,6 +16,22 @@ body {
   background-color:aliceblue
 }
 
+@keyframes animatedSquare {
+  0% {border-radius: 0%;}
+  25% {border-radius: 100%; transform: rotate(90deg);}
+  50% {background-color: blue; transform: rotate(180deg);}
+  100% {background-color: green; transform: rotate(36-deg);}
+}
+
+img {
+  margin: 5%;
+  width: 100px;
+  height: 100px;
+  animation-name: animatedSquare;
+  animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+}
+
 /* changing the font for the list items and paragraphs to sans serif */
 
 li {
