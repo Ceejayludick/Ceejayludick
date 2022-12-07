@@ -6,6 +6,7 @@
 
   <head>
     <title> Ceejay Ludick </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylesheet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -15,166 +16,212 @@
 
   <div class="container">
 
-    <body>
-      <!Layout and Bootstrap for Nav Bar ╌ ╌>
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Menu </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Education </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Experience </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Skills </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Interests </a>
-                </li>
+    <!Picture element to control sizing of Profile Pic ╌ ╌>
 
+      <picture>
+        <source srcset="./images/profile.jpg" media="(orientation: portrait)">
+        <img src="./images/profile.jpg" alt="profile photo">
+      </picture>
+
+      <body>
+        <!Layout and Bootstrap for Nav Bar ╌ ╌>
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Menu </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Education </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Experience </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Skills </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Interests </a>
+                  </li>
+
+              </div>
             </div>
-          </div>
-        </nav>
-        <header id="heading ">
-
-          <!Linking main profile image ╌ ╌>
-            <div>
-              <img id="image1" src="./images/profile.jpg" width="150px" alt="Photo of Ceejay Ludick">
-            </div>
-
-            <h1> Ceejay Ludick</h1>
-            <p> Software Development student at CodeSpace. </p>
-        </header>
-        <main class="main">
+          </nav>
 
 
+          <header id="heading ">
+
+            <!Linking main profile image ╌ ╌>
+              <div>
+                <img id="image1" src="./images/profile.jpg" width="150px" alt="Photo of Ceejay Ludick">
+              </div>
+
+              <h1> Ceejay Ludick</h1>
+              <p> Software Development student at CodeSpace. </p>
+          </header>
+          <main class="main">
 
 
-          <h2> Introduction </h2>
-          <p> I am a 24 year old LIS Graduate currently retraining as a Software Developer at CodeSpace. I have a
-            mix
-            of skills in the Library, Admin and TEFL industries.</p>
+            <div class="card">
+              <div class="card-body">
 
 
-          <h2> Education: </h2>
 
-          <h3> Software Development at <a href="http://codespace.co.za/" target="_blank" rel="none"> CodeSpace
-              Academy</a>
-          </h3>
 
-          <p> I undertook a 10 month Part-Time Software Development Bootcamp at CodeSpace Academy wherein we
-            learnt
-            how to do a range of Portfolio Coding Tasks</p>
+                <h2> Introduction </h2>
+                <p> I am a 24 year old LIS Graduate currently retraining as a Software Developer at CodeSpace. I have a
+                  mix
+                  of skills in the Library, Admin and TEFL industries.</p>
 
-          <h3> PGDIP Library and Information Science</h3>
-          <p> Honours-Level Diploma in Library Science at the <a href="http://www.dkis.uct.ac.za/lisc/postgraduate-diploma-library-and-information-studies-pgdiplis
+
+                <h2> Education: </h2>
+
+                <h3> Software Development at <a href="http://codespace.co.za/" target="_blank" rel="none"> CodeSpace
+                    Academy</a>
+                </h3>
+
+                <p> I undertook a 10 month Part-Time Software Development Bootcamp at CodeSpace Academy wherein we
+                  learnt
+                  how to do a range of Portfolio Coding Tasks</p>
+
+                <h3> PGDIP Library and Information Science</h3>
+                <p> Honours-Level Diploma in Library Science at the <a href="http://www.dkis.uct.ac.za/lisc/postgraduate-diploma-library-and-information-studies-pgdiplis
                 " target="_blank" rel="none"> University of Cape Town </a>, Thesis Topic: "The Role Social
-            Inclusivity plays in Public Libaraies Across the Cape Metro"</p>
+                  Inclusivity plays in Public Libaraies Across the Cape Metro"</p>
 
-          <h3> i-to-i-TEFL </h3>
-          <p> Completed a 180-hour Level 5 TEFL Qualification certified to Teach English as a Foreign Language</p>
+                <h3> i-to-i-TEFL </h3>
+                <p> Completed a 180-hour Level 5 TEFL Qualification certified to Teach English as a Foreign Language</p>
 
-          <h3> BA History and Sociology </h3>
-          <p> Completed Bachelors Degree Majoring in History and Industrial Sociology, in preparation for a
-            Library
-            Science Postgraduate Qualification </p>
-
-          <h2> Experience </h2>
-          <h3> Admin Assistant: <a href="https://www.firsttech.co.za/" target="_blank" rel="none"> FirstInTech</a>
-          </h3>
-          <ul>
-            <li> Service Desk Queries </li>
-            <li> Jobcard Management and Invoicing </li>
-            <li> Transcribing outgoing client communication </li>
-            <li> Filing, Weekly Reports </li>
-          </ul>
-          <h3> NLSA Librarian Traineeship: <a href=" https://www.nlsa.ac.za/" target="_blank" rel="none"> National
-              Library
-              of
-              SA </a></h3>
-          <ul>
-            <li> GRAP 103 Project Digitisiation </li>
-            <li> Data and Catalogue Verification </li>
-            <li> Library Material Inventory Metadata Verification </li>
-            <li> Barcoding, Tattle taping </li>
-            <li> Shelf Reading</li>
-          </ul>
-          <h3> Librarian Fieldwork Placement: National Library of SA</h3>
-          <ul>
-            <li> Archiving Techniques </li>
-            <li> Digitization </li>
-            <li> Reference Librarian Services</li>
-            <li> Stack Management and Material Retrieval</li>
-            <li> Conservation Services</li>
-            <li> Metadata and Cataloguing Services</li>
-          </ul>
-          <h3> Freelance TEFL Tutor: <a href="https://preply.com/" target="_blank" rel="none"> PREPLY </a> </h3>
-          <ul>
-            <li> Freelance Tutoring a range of English as a Foreign Language Skills to students from across the
-              world </li>
-          </ul>
+                <h3> BA History and Sociology </h3>
+                <p> Completed Bachelors Degree Majoring in History and Industrial Sociology, in preparation for a
+                  Library
+                  Science Postgraduate Qualification </p>
 
 
+                <!Use of Carousel displaying qualifcations and work ╌ ╌>
 
-          <h2> Skills and Interests </h2>
+                  <div id="carouselSlides" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="./images/tefl.png" alt="TEFL certificate">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/NSC.png" alt="Matric Certificate">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/bachelors png.png" alt="Bachelors Degree">
+                      </div>
+                    </div>
+                  </div>
 
-          <h3> Skills</h3>
-          <ul>
-            <li> Organising and Planning </li>
-            <li> Problem Solving </li>
-            <li> Written, Verbal Communication Skills </li>
-          </ul>
+                  <h2> Experience </h2>
+                  <h3> Admin Assistant: <a href="https://www.firsttech.co.za/" target="_blank" rel="none">
+                      FirstInTech</a>
+                  </h3>
+                  <ul>
+                    <li> Service Desk Queries </li>
+                    <li> Jobcard Management and Invoicing </li>
+                    <li> Transcribing outgoing client communication </li>
+                    <li> Filing, Weekly Reports </li>
+                  </ul>
+                  <h3> NLSA Librarian Traineeship: <a href=" https://www.nlsa.ac.za/" target="_blank" rel="none">
+                      National
+                      Library
+                      of
+                      SA </a></h3>
+                  <ul>
+                    <li> GRAP 103 Project Digitisiation </li>
+                    <li> Data and Catalogue Verification </li>
+                    <li> Library Material Inventory Metadata Verification </li>
+                    <li> Barcoding, Tattle taping </li>
+                    <li> Shelf Reading</li>
+                  </ul>
+                  <h3> Librarian Fieldwork Placement: National Library of SA</h3>
+                  <ul>
+                    <li> Archiving Techniques </li>
+                    <li> Digitization </li>
+                    <li> Reference Librarian Services</li>
+                    <li> Stack Management and Material Retrieval</li>
+                    <li> Conservation Services</li>
+                    <li> Metadata and Cataloguing Services</li>
+                  </ul>
+                  <h3> Freelance TEFL Tutor: <a href="https://preply.com/" target="_blank" rel="none"> PREPLY </a> </h3>
+                  <ul>
+                    <li> Freelance Tutoring a range of English as a Foreign Language Skills to students from across the
+                      world </li>
+                  </ul>
 
-          <h3> Interests </h3>
-          <ul>
-            <li> Reading </li>
-            <li> Nature Swimming and Hiking</li>
-            <li> Film and Television </li>
-            <li> Gaming </li>
-            <li> Art and History </li>
-          </ul>
 
-        </main>
+
+                  <h2> Skills and Interests </h2>
+
+                  <h3> Skills</h3>
+                  <ul>
+                    <li> Organising and Planning </li>
+                    <li> Problem Solving </li>
+                    <li> Written, Verbal Communication Skills </li>
+                  </ul>
+
+                  <h3> Interests </h3>
+                  <ul>
+                    <li> Reading </li>
+                    <li> Nature Swimming and Hiking</li>
+                    <li> Film and Television </li>
+                    <li> Gaming </li>
+                    <li> Art and History </li>
+                  </ul>
+              </div>
+            </div>
+          </main>
   </div>
 
-  <!Conetent for Footer ╌ ╌>
-    <footer>
-      <div class="flex-container">
-        <h3> Contact Details: </h3>
-        <ul>
-          <a href="https://www.linkedin.com/in/ceejay-l-7965a8114/" target="_blank" rel="none">
-            <img src="./images/linkedinIcon.png" width="50px" alt="Linkedin"> </a>
-
-        </ul>
-        <ul>
-          <a href="https://github.com/Ceejayludick" target="_blank" rel="none"> <img src="./images/githubLogo.png"
-              width="50px" alt="Github"></a>
-        </ul>
-        <ul>
-          <a href="mailto: ceejayludick13@gmail.com" target="_blank" rel="none"> <img src="./images/gmailLogo.png"
-              width="50px" alt="Gmail"> </a>
-
-        </ul>
+  <!Use of Form for further contact ╌ ╌>
+    <form>
+      <h1> Want to contact me?</h1>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Type your email address here!</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
-    </footer>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Type your message here! </label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </form>
+
+    <!Content for Footer ╌ ╌>
+      <footer>
+        <div class="flex-container">
+          <h3> Contact Details: </h3>
+          <ul>
+            <a href="https://www.linkedin.com/in/ceejay-l-7965a8114/" target="_blank" rel="none">
+              <img src="./images/linkedinIcon.png" width="50px" alt="Linkedin"> </a>
+
+          </ul>
+          <ul>
+            <a href="https://github.com/Ceejayludick" target="_blank" rel="none"> <img src="./images/githubLogo.png"
+                width="50px" alt="Github"></a>
+          </ul>
+          <ul>
+            <a href="mailto: ceejayludick13@gmail.com" target="_blank" rel="none"> <img src="./images/gmailLogo.png"
+                width="50px" alt="Gmail"> </a>
+
+          </ul>
+        </div>
+      </footer>
 
 
 
 
 
 
-    </body>
+      </body>
 
 
 

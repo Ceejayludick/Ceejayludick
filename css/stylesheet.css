@@ -12,25 +12,39 @@ body {
   align-items: center;
   margin: auto;
   border: 0px;
-  padding: 3%;
-  background-color:aliceblue
+  padding: 1%;
+  
 }
 
+
+
+/* animation styling */
 @keyframes animatedSquare {
   0% {border-radius: 0%;}
   25% {border-radius: 100%; transform: rotate(90deg);}
-  50% {background-color: blue; transform: rotate(180deg);}
-  100% {background-color: green; transform: rotate(36-deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(36-deg);}
 }
 
 img {
   margin: 5%;
   width: 100px;
-  height: 100px;
+  height: auto;
+  max-width: 70vw;
   animation-name: animatedSquare;
   animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
 }
+
+
+/* styling for the carousel */
+.carouselSlide {
+  border: 5%;
+  padding: 5%;
+  margin: auto;
+  width: 250px;
+  height: 650px;
+} 
 
 /* changing the font for the list items and paragraphs to sans serif */
 
@@ -68,7 +82,7 @@ header {
 
 }
 
-/* Styling for menu sidebar */
+/* Styling for menu navbar */
 
 aside {
   border: 5cm;
@@ -151,4 +165,12 @@ footer {
   margin: 5%;
   background-color: darkgoldenrod;
   border-radius: 20px;
+}
+
+/*styling for the Bootstrap Email message form*/
+
+form {
+  margin: 5%;
+  border: 5%;
+  padding: 5%;
 }
